@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #eee9df;
+color: #292929;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 18px 7%;
+background: #162c46;
+color: white;
+border-bottom: 3px solid #e5a928;
+}
+
+nav h2 {
+margin: 0;
+}
+
+.nav-links {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+}
+
+section {
+padding: 65px 7%;
+}
+
+.hero {
+min-height: 480px;
+display: flex;
+align-items: center;
+gap: 45px;
+flex-wrap: wrap;
+}
+
+.hero-text {
+flex: 1 1 400px;
+}
+
+.hero-text h1 {
+max-width: 650px;
+font-size: 52px;
+margin: 12px 0;
+}
+
+.hero-text p {
+max-width: 600px;
+line-height: 1.6;
+}
+#pic{
+    border-radius: 10px;
+}
+.hero-picture {
+flex: 0 1 300px;
+
+border-radius: 10px;
+}
+
+.hero-picture:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.button {
+display: inline-block;
+padding: 11px 18px;
+background: #162c46;
+color: white;
+text-decoration: none;
+
+}
+.button:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.services {
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+}
+
+.services div {
+flex: 1 1 220px;
+padding: 25px;
+background: white;
+border: 1px solid #ccc;
+}
+
+.services b {
+color: #c73e3e;
+}
+
+.services p,
+.member p {
+line-height: 1.5;
+}
+
+.about {
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+background: #162c46;
+color: white;
+}
+
+.about div {
+flex: 1 1 300px;
+}
+
+.team {
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+}
+
+.member {
+flex: 1 1 220px;
+display: flex;
+align-items: center;
+gap: 15px;
+padding: 20px;
+background: white;
+border-left: 5px solid #e5a928;
+}
+
+.member strong {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 55px;
+height: 55px;
+background: #eee9df;
+color: #c73e3e;
+}
+
+.member h3 {
+margin: 0;
+}
+
+.member p {
+margin-bottom: 0;
+}
+
+.contact {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+background: #e5a928;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+flex-wrap: wrap;
+padding: 20px 7%;
+background: #162c46;
+color: white;
+}
+
+@media (max-width: 600px) {
+nav {
+flex-direction: column;
+gap: 15px;
+align-items: flex-start;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+}
+
+.contact {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+}
