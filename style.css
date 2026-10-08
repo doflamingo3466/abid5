@@ -152,8 +152,8 @@ margin-bottom: 0;
 }
 
 .member img{
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
 }
 
@@ -172,7 +172,7 @@ justify-content: space-between;
 gap: 20px;
 flex-wrap: wrap;
 padding: 20px 7%;
-background: #162c46;
+background: #ec5f0d;
 color: white;
 }
 
